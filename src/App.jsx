@@ -1,28 +1,39 @@
+import { Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import TrustedBy from "./components/TrustedBy";
-import HowItWorks from "./components/HowItWorks";
-import Features from "./components/Features";
-import Machine from "./components/Machine";
-import Dashboard from "./components/Dashboard";
-import Industries from "./components/Industries";
-import Faq from "./components/Faq";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsAndConditions from "./components/TermsAndConditions";
+import RefundPolicy from "./components/RefundPolicy";
 
 export default function App() {
   return (
-    <main className="bg-slate-950 text-white overflow-x-hidden">
+    <main className="bg-slate-950 text-white min-h-screen overflow-x-hidden">
       <Navbar />
-      <Hero />
-      <TrustedBy />
-      <HowItWorks />
-      <Features />
-      <Machine />
-      <Dashboard />
-      <Industries />
-      <Faq />
-      <Contact />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+
+        <Route
+          path="/privacy-policy"
+          element={<PrivacyPolicy />}
+        />
+
+        <Route
+          path="/terms-and-conditions"
+          element={<TermsAndConditions />}
+        />
+
+        <Route
+          path="/refund-policy"
+          element={<RefundPolicy />}
+        />
+      </Routes>
+
       <Footer />
     </main>
   );
