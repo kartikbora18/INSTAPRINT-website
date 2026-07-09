@@ -35,7 +35,7 @@ export default function Hero() {
 
               <span className="text-emerald-400">
 
-               Printing Network
+               Printing Kiosk Network
 
               </span>
 
@@ -43,17 +43,13 @@ export default function Hero() {
 
             <p className="mt-8 text-2xl text-slate-300">
 
-              Upload your PDF, pay securely with UPI,
-              and collect your prints in minutes from
-              an INSTAPRINT kiosk.
+             Print documents instantly using India's smart self-service printing kiosks. Upload your PDF, pay securely using UPI and collect high-quality prints within minutes..
 
             </p>
 
             <p className="mt-4 text-slate-400 text-lg max-w-xl">
 
-              INSTAPRINT is building India's next generation
-              self-service printing network for students,
-              professionals, businesses and public spaces.
+             INSTAPRINT provides self-service document printing kiosks for colleges, universities, libraries, offices, hospitals, railway stations, airports and public locations across India.
 
               Fast, secure and available whenever you need it.
 
@@ -63,7 +59,7 @@ export default function Hero() {
 
               <button className="bg-emerald-500 hover:bg-emerald-400 transition px-8 py-4 rounded-xl text-lg font-semibold flex items-center gap-2">
 
-                Find a Machine
+                Request a Demo
 
                 <ArrowRight size={20} />
 
@@ -73,7 +69,7 @@ export default function Hero() {
 
                 <Play size={18} />
 
-                Request Demo
+                Contact Sales
 
               </button>
 
@@ -129,7 +125,7 @@ export default function Hero() {
 ease: "easeInOut"
               }}
               src="/assets/machine.png"
-              alt="INSTAPRINT Machine"
+             alt="INSTAPRINT self-service document printing kiosk"
               className="w-full max-w-lg mx-auto drop-shadow-[0_0_70px_rgba(16,185,129,0.5)]"
             />
 

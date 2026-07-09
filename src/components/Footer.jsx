@@ -96,7 +96,7 @@ export default function Footer() {
 
               <p>📧 work.kartikbora@gmail.com</p>
 
-              <p>📞 +91 Your Business Number</p>
+              <p>📞 +91 9834371289</p>
 
               <p>📍 Pune, Maharashtra, India</p>
 
